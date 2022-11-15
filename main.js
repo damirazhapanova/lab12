@@ -13,18 +13,17 @@ console.log(hr)
 document.body.appendChild(hr)
 
 // added hr element
-let h2 = document.createElement("hr")
+let h2 = document.createElement("h2")
 h2.innerHTML = "Task"
 h2.style.color = "orange"
 document.body.appendChild(h2)
 
-let hr3 = document.createElement("hr")
 
-let p = document.createElement("p")
+let p1 = document.createElement("p")
 p.innerHTML = "In this task you have to reproduce this HTML page as is using <b>only</b> Javascript. The task will be evaluated on the basis of the following DOM manipulation techniques:"
-document.body.appendChild(p)
+document.body.appendChild (p)
 
-let ul = document.createElement("ul")
+let ul1 = document.createElement("ul")
 
 let li1 = document.createElement("li")
 li1.innerText = "find elements in the DOM (<b>5 points</b>);"
@@ -63,14 +62,15 @@ let a1 = document.createElement("a")
 a1.href = "https://github.com/yessen/nu_web_programming/tree/main/week12"
 document.body.appendChild(a1)
 
-let h3 = document.createElement("hr")
+let h3 = document.createElement("h2")
 h3.innerText = "Submission"
 h3.style.color = "red"
 document.body.appendChild(h3)
 
-let h4 = document.createElement("hr")
+let h4 = document.createElement("h2")
 h4.innerText = "To submit your work, follow these instructions:"
 document.body.appendChild(h4)
+document.body.appendchild("ul1")
 
 let ul2 = document.createElement("ul")
 document.body.appendChild(ul2)
